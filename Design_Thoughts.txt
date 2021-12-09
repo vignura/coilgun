@@ -1,0 +1,32 @@
+1. How to improve the efficiency of a single stage coilgun ?
+
+context:
+--------
+existing coilguns have efficiency around 1 to 4 %, which is pretty low, this mainly due the following, I believe,
+	* size of the projectile with respect to the coil, currently length of the coil is close to the length of the projectile but the diameter is far greater compared to the diameter of the projectile
+	* the starting position of the projectile, it is mostly outside or just inside the coil
+	* suck back effect due to current still flowing through the coil after the projectile passed the center of the coil
+
+improvement:
+------------
+* coil length and diameter, I think the length of the coil should be equal to the diameter of the coil so that it would fit perfectly inside a cube of side equal to the coil's diameter. Why ? Just an intuition, shape with largest area for smallest perimeter is a square  (ignoring circle). Similarly, if we ignore sphere, cube would be the optimum shape, so designing a coil in so that it could fit inside a cube would make the coil more suited for a coilgun, as this means all the current carrying turns are closer to the projectile as possible, so more force could be applied.
+
+* The coil bore diameter, I think the diameter of the bore should be one third (1/3 or 33 %) of the coil diameter. Again here so that there will be equal amounts of coil above and below the projectile. The coil bore should be as close to the projectile diameter as possible (barrel thickness is the limiting factor here). Could try with half (1/2) ?
+
+* The coil length, I think should be half of the projectile length. Why ? I want to try it. With this, we can place half of the projectile completely inside the coil and rest of the half sticking out of the coil. The logic here is that, all the turns in the coil could apply force and the projectile and no energy would be wasted. Here we need to take care of two things, 
+	1. The pulse applied to the coil should be very short, since the half of the projectile is already in, it would only be able to move quarter (1/4) of the projectile length inside the coil before experiencing suck back effect, so we need to turn off the current if the projectile has moved by quarter of its length inside the coil, ie projectile's center is at the center of the coil.
+	2. Since the it takes a little bit of time of peak current to be established in the coil, we might want of start with the projectile place a just a lit bit away form the center, ie a little more than 50 %, 55 % of the projectile sticking out.
+
+* Coil stages, with the above design, we could have many coils successively placed to accelerate the projectile, There should be no space between two stages of coils, as this would increase barrel length for no use at all. How to tune the stages, each stage should fire when projectile is 50 % inside the coil, ie when there is peak current. The tuning should be such that the pulses should get shorter as the projectile speeds up. It should be like a whip of crack.
+
+Another improvement:
+--------------------
+* In the above case, if the coil length was half of the projectile, and we turned off the current after moving for a quarter of the projectile's length, there would be another quarter of the projectile length the projectile would have to travel before it would be 50 % inside the next coil, and that's when that coil is fired, but here, in between turning off of the first coil and turning on the second coil, the projectile travels a quarter of its length where no force is applied to it by the coil hence no acceleration. To solve this, we could cut each coil in half, make its length half, so that it would be a quarter of the projectile's length. Now the tuning will be, the first coil and second coil would be fired simultaneously, but the first coil will only be on for quarter of the projectile to pass inside it and turn off, Now third coil will be fired and second coil will also be still on for another quarter of the projectile to pass and turn off and so. The concept here is that half the projectile will always be inside two energized coil from start to end. Here each successive coil will be fired as the projectile moves by quarter of its length, so except for the first and last coil, all coils will be on for the time it takes for the half of the projectile to move through it, while the first and last ones will be on for a quarter of the time.
+
+challenge:
+----------
+* The challenge here is to get the electronics to switch on and off the coils in perfect timing.
+
+Prototype:
+----------
+* For initial prototype I would start with a battery powered design, where a MOSFET could be controlled by a micro-controller like arduino to get the timings right.
