@@ -1,0 +1,23 @@
+Circuit: * C:\Users\vignu\Documents\LTspiceXVII\Coilgun\Coilgun-1V01.asc
+
+Limiting rise time of source v1 to 4e-005
+Limiting fall time of source v1 to 4e-005
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Dec 12 21:14:20 2021
+Total elapsed time: 0.334 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 20611
+traniter = 20579
+tranpoints = 10229
+accept = 10170
+rejected = 59
+matrix size = 5
+fillins = 0
+solver = Normal
+Matrix Compiler1: 132 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 267 bytes object code size  0.1/0.1/[0.1]
+
