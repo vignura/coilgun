@@ -1,66 +1,21 @@
-Circuit: * D:\Coding\coilgun\full-voltage-doubler\fullwave-doubler-1V03.asc
+Circuit: * C:\Users\vsridh252\Documents\personal\coilgun\full-voltage-doubler\fullwave-doubler-1V03.asc
 
-.OP point found by inspection.
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
-Heightened Def Con from 0.000630498 to 0.000630498
+Per .tran options, skipping operating point for transient analysis.
 
-Date: Sun Dec 26 22:14:35 2021
-Total elapsed time: 40.832 seconds.
+Date: Mon Dec 27 22:58:24 2021
+Total elapsed time: 1.225 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 3769640
-traniter = 3769640
-tranpoints = 676616
-accept = 458798
-rejected = 217863
-matrix size = 56
-fillins = 37
+totiter = 111499
+traniter = 111499
+tranpoints = 42506
+accept = 33140
+rejected = 9366
+matrix size = 58
+fillins = 43
 solver = Normal
-Matrix Compiler1: 3.32 KB object code size  1.5/0.9/[0.3]
-Matrix Compiler2: 4.26 KB object code size  0.6/1.1/[0.4]
+Matrix Compiler1: 3.81 KB object code size  0.7/0.3/[0.2]
+Matrix Compiler2: 4.52 KB object code size  0.2/0.4/[0.1]
 
