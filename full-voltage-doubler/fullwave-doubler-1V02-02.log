@@ -1,0 +1,21 @@
+Circuit: * C:\Users\vsridh252\Documents\personal\coilgun\full-voltage-doubler\fullwave-doubler-1V02-02.asc
+
+.OP point found by inspection.
+
+Date: Mon Jan 03 23:01:06 2022
+Total elapsed time: 0.794 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 91040
+traniter = 91040
+tranpoints = 21665
+accept = 17449
+rejected = 4216
+matrix size = 15
+fillins = 7
+solver = Normal
+Matrix Compiler1: 1.37 KB object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 1.34 KB object code size  0.1/0.1/[0.1]
+

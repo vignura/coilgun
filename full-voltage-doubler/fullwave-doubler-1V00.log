@@ -1,21 +1,21 @@
-Circuit: * D:\Coding\coilgun\full-voltage-doubler\fullwave-doubler-1V00.asc
+Circuit: * C:\Users\vsridh252\Documents\personal\coilgun\full-voltage-doubler\fullwave-doubler-1V00.asc
 
 .OP point found by inspection.
 
-Date: Sun Dec 26 11:45:58 2021
-Total elapsed time: 0.727 seconds.
+Date: Mon Jan 03 19:52:24 2022
+Total elapsed time: 0.521 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 91713
-traniter = 91713
-tranpoints = 23018
-accept = 17398
-rejected = 5620
-matrix size = 7
+totiter = 105722
+traniter = 105722
+tranpoints = 25872
+accept = 20237
+rejected = 5635
+matrix size = 8
 fillins = 3
 solver = Normal
-Matrix Compiler1: 442 bytes object code size  0.1/0.1/[0.1]
-Matrix Compiler2: off  [0.1]/0.2/0.1
+Matrix Compiler1: 492 bytes object code size  0.2/0.2/[0.1]
+Matrix Compiler2: 622 bytes object code size  0.1/0.2/[0.1]
 
